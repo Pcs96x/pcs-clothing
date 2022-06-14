@@ -757,6 +757,7 @@ body {
     background: url(/beach.jpg);
     background-size: cover;
     background-position-y: -170px;
+    background-attachment: fixed;
 
     position: relative;
     top: 320px;
