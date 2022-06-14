@@ -1,0 +1,173 @@
+@media screen and (max-width: 600px) {
+    .btns {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fa-heart {
+        position: relative;
+        top: 6px;
+    }
+
+    .top h4 {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .top h3 {
+       display: block;
+    }
+
+    .clearpay {
+        min-width: 100%;
+        height: 37vh;
+        background-color: lightgray;
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        'clear'
+        'sale'
+        'klarna';
+    
+        text-align: center;
+    }
+
+    .clear h4, .sale h4, .klarna h4 {
+        min-width: 100%;
+        margin: 10px;
+
+        text-align: center;
+    }
+
+    .bottom {
+        display: block;
+        text-align: center;
+    }
+
+    .opening-images {
+        min-width: 100%;
+        height: 100vh;
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        'mens'
+        'kids'
+        'women';
+
+        position: relative;
+        top: 0px;
+    }
+
+    .deals {
+        position: relative;
+        top: 300px;
+        background-position-y: -0px;
+        background-position-x: -100px;
+    }
+
+    .shop-these {
+        position: relative;
+        top: 300px;
+    }
+
+    .banner {
+        position: relative;
+        top: 650px;
+
+        text-align: center;
+    }
+
+    .nike-range-box {
+        position: relative;
+        top: 650px;
+
+        min-width: 100%;
+        height: 100vh;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        'one' 
+        'two' 
+        'three';
+    }
+
+    .banner-two, .womens-shoes {
+        position: relative;
+        top: 700px;
+    }
+
+    .womens-shoes {
+        min-width: 100%;
+        height: 100vh;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        'wo-one' 
+        'wo-two' 
+        'wo-three';
+    }
+
+    .end-circles-box {
+        position: relative;
+        top: 700px;
+    }
+
+    .end-circ-imgs {
+        position: relative;
+        top: 100px;
+    }
+
+    .sign-me-up {
+        position: relative;
+        top: 1100px;
+    }
+
+    .middle-end {
+        display: block;
+        text-align: center;
+    }
+
+    .bottom-end {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-end input {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        min-width: 100%;
+        height: 150vh;
+
+        position: relative;
+        top: 1200px;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        'f-one' 
+        'f-two' 
+        'f-three' 
+        'f-four'
+        'copyright';
+    }
+
+    .copyright {
+        margin: 0;
+        text-align: center;
+    }
+}
